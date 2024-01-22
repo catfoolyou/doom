@@ -54,7 +54,7 @@
             <canvas class="frame" id="canvas" oncontextmenu="event.preventDefault()" tabindex="-1"></canvas>
         </div>
         <script>
-            var commonArgs = ["-iwad", "doom1.wad", "-window", "-nogui", "-nomusic", "-config", "default.cfg", "-servername", "doomflare"];
+            var commonArgs = ["-iwad", "doom.wad", "-window", "-nogui", "-nomusic", "-config", "default.cfg", "-servername", "doomflare"];
 
             var Module = {
                 onRuntimeInitialized: () => {
@@ -62,7 +62,7 @@
                 },
                 noInitialRun: true,
                 preRun: () => {
-                    Module.FS.createPreloadedFile("", "doom1.wad", "doom1.wad", true, true);
+                    Module.FS.createPreloadedFile("", "doom.wad", "doom.wad", true, true);
                     Module.FS.createPreloadedFile("", "default.cfg", "default.cfg", true, true);
                 },
                 printErr: function (text) {
