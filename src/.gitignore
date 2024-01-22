@@ -1,8 +1,5 @@
-Makefile
-Makefile.in
 .deps
 *.rc
-websockets-doom.*
 *.cfg
 *.exe
 *.desktop
