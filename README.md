@@ -1,4 +1,4 @@
-# Gitpod Doom
+# The Ultimate Doom
 
 This is a [Chocolate Doom][1] WebAssembly port with WebSockets [support][2].
 
