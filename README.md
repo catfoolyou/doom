@@ -2,12 +2,6 @@
 
 This is a [Chocolate Doom][1] WebAssembly port with WebSockets [support][2].
 
-## Next Steps
-
-Click the button below to compile doom and waste a couple hours playing doom in your browser:
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/doom)
-
 ## Notes & caveats
 
 To show important messages coming from the game while it's running we send the following formatted stdout messages, which can be parsed in the web page running the wasm:
